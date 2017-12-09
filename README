@@ -1,0 +1,5 @@
+# Repository说明
+## demo文件夹说明
+
+* 为opencv在Linux中Makefile的编写
+* 相应的cpp文件和Makefile在demo文件夹下
