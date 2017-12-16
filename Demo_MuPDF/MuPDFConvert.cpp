@@ -72,8 +72,16 @@ bool CMuPDFConvert::Pdf2Png(const wchar_t* wcharPdfFile/*,const char* imageOutpu
 	char tempPath[1024];
 	//strcpy_s(tempPath, imageOutputPath);
 	//strcat_s(tempPath, imageName);
+	
+	//lhw注释20171216
+	/*
 	strcpy_s(tempPath, imageName);
 	strcat_s(tempPath, "%d.png");
+
+	strcpy_s(output, (strlen(tempPath)+1)*sizeof(char), tempPath);
+	*/
+	strcpy(tempPath, imageName);
+	strcat(tempPath, "%d.png");
 
 	strcpy_s(output, (strlen(tempPath)+1)*sizeof(char), tempPath);
 

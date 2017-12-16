@@ -2,7 +2,8 @@
 #ifndef MY_MUPDF_CONVERT_PDF_PNG
 #define MY_MUPDF_CONVERT_PDF_PNG
 
-
+#include<string.h>
+#include<cstring>
 extern "C" 
 {
 #include "fitz.h"
